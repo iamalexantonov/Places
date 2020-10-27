@@ -7,7 +7,6 @@
 
 import Foundation
 import CoreLocation
-import Combine
 
 class ViewModel: NSObject, ObservableObject {
     private let locationManager = CLLocationManager()
